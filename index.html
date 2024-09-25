@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.actions a {
+ display: inline-block;
+ margin-right: 10px;
+ text-decoration: none;
+ color: blue;
+}
+
+.summeries h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.summeries a {
+  display: block; /* Each link on a new line */
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: green;
+}
+
+.summeries a:hover {
+  color: darkgreen; /* Hover effect */
+}
+
+.bike-brands a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.bike-brands a:hover {
+  color: #0056b3; /* Hover effect */
+}
+
+.shops a {
+  display: block; /* Each link on a new line */
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #ff4500;
+  font-size: 18px;
+}
+
+.shops a:hover {
+  color: #c0392b; /* Hover effect */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid #ccc; /* Optional border to define container */
+  background-color: #f9f9f9;
+}
+
+.actions, .summeries, .bike-brands, .shops {
+  flex: 1 1 100%; /* Divs will take full width */
+  text-align: center;
+}
+
+.image {
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+a {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="actions">
+  <a href="#">Buyers</a>
+  <a href="#">Sellers</a>
+  <a href="#">Hair</a>
+  <a href="#">Stores</a>
+  <a href="#">Price</a>
+</div>
+
+<div class="summeries">
+  <h3>Summaries</h3>
+  <a href="#">New Stocks</a>
+  <a href="#">Listed for Sale</a>
+  <a href="#">Total Sold</a>
+  <a href="#">Sales Per brand</a>
+  <a href="#">Listing total</a>
+  <a href="#">Average per brand</a>
+  <a href="#">Totals per brand</a>
+  <a href="#">Totals by store</a>
+</div>
+
+<div class="image">
+    <img src="your-image.jpg" alt="Centered Image">
+  </div>
+
+<div class="message">
+  we give you the best shopping exeperience
+  <br>
+  Your style is in the best hands
+  <br>
+  We connect you to the best markets
+</div>
+
+<div class="bike-brands">
+  <a href="#">Be You</a>
+  <a href="#">Be You T</a>
+  <a href="#">Be You Te</a>
+  <a href="#">Be You Tee</a>
+  <a href="#">Be You Tee-F</a>
+  <a href="#">Be You TeE-FU</a>
+  <a href="#">Be You TeE-FUL</a>
+  <a href="#">Be You TeE-FUL-Y</a>
+  <a href="#">Be You TeE-FUL-YOU</a>
+</div>
+
+<div class="shops">
+  <a href="#">Shop 1</a>
+  <a href="#">Shop 2</a>
+  <a href="#">Shop 3</a>
+</div>
+
+
+
+</body>
+</html>
